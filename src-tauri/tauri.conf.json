@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "postman",
+  "productName": "RUSTMAN",
   "version": "0.1.0",
   "identifier": "com.manojseetaramgowda.postman",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "postman",
+        "title": "RUSTMAN",
         "width": 800,
         "height": 600
       }
