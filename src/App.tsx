@@ -92,9 +92,9 @@ export default function PostmanUI() {
         paddingTop: 40,
       }}
     >
-      {/* LEFT SIDE */}
+  
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-        {/* Request Bar */}
+       
         <div
           style={{
             display: "flex",
@@ -157,7 +157,7 @@ export default function PostmanUI() {
           </button>
         </div>
 
-        {/* Tabs */}
+  
         <div style={{ display: "flex", gap: 10, marginTop: 20 }}>
           <button style={tabButton("params")} onClick={() => setActiveTab("params")}>
             Params
@@ -170,7 +170,7 @@ export default function PostmanUI() {
           </button>
         </div>
 
-        {/* Tab Content */}
+      
         <div
           style={{
             marginTop: 20,
@@ -242,7 +242,7 @@ export default function PostmanUI() {
             </>
           )}
 
-          {/* HEADERS */}
+         
           {activeTab === "headers" && (
             <>
               {headers.map((h, i) => (
@@ -321,7 +321,7 @@ export default function PostmanUI() {
         </div>
       </div>
 
-      {/* RIGHT SIDE RESPONSE */}
+    
       <div
         style={{
           width: "40%",
